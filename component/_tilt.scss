@@ -1,0 +1,61 @@
+.area {
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  transition: all 0.5s;
+  .way {
+    width: 33.33%;
+    height: 33.33%;
+    z-index: 1;
+    &:nth-child(1):hover ~ .box {
+      transform: rotateX(-20deg) rotateY(20deg);
+    }
+    &:nth-child(2):hover ~ .box {
+      transform: rotateX(-20deg) rotateY(0deg);
+    }
+    &:nth-child(3):hover ~ .box {
+      transform: rotateX(-20deg) rotateY(-20deg);
+    }
+    &:nth-child(4):hover ~ .box {
+      transform: rotateX(0deg) rotateY(20deg);
+    }
+    &:nth-child(5):hover ~ .box {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    &:nth-child(6):hover ~ .box {
+      transform: rotateX(0deg) rotateY(-20deg);
+    }
+    &:nth-child(7):hover ~ .box {
+      transform: rotateX(20deg) rotateY(20deg);
+    }
+    &:nth-child(8):hover ~ .box {
+      transform: rotateX(20deg) rotateY(0deg);
+    }
+    &:nth-child(9):hover ~ .box {
+      transform: rotateX(20deg) rotateY(-20deg);
+    }
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform: translateZ(-80px);
+      filter: blur(10px);
+    }
+  }
+}

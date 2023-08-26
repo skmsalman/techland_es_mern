@@ -1,0 +1,94 @@
+@import "../base/color";
+
+@media screen and (max-width: 1386px) {
+  .header_area .navbar .navbar_right {
+    margin-left: 0 !important;
+  }
+}
+@media screen and (max-width: 1276px) {
+  .shape_2 {
+    img {
+      display: none;
+    }
+  }
+  .banner_content_row {
+    justify-content: center;
+    text-align: center;
+  }
+  .banner_content_footer {
+    justify-content: center;
+  }
+  .banner_section {
+    margin-top: 80px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1276px) {
+  .navbar {
+    .container-fluid,
+    .navbar-collapse {
+      flex-direction: column;
+    }
+    .navbar-nav {
+      margin-right: 0 !important;
+    }
+    .navbar-brand {
+      margin-right: 0 !important;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar_left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-nav li {
+    margin-left: 0 !important;
+  }
+  .nav_top {
+    margin-top: 44px;
+
+    li {
+      border: 1px solid #f2f2f2;
+      border-left: none;
+      border-right: none;
+      padding: 0 15px 0 15px;
+      a {
+        padding: 17px 0;
+      }
+    }
+    .pages {
+      i {
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+  .nab_bottom {
+    margin-top: 30px;
+    align-items: flex-start !important;
+    .sign_get_ing li {
+      margin-right: 15px;
+    }
+  }
+  .header_area .navbar .navbar_right .navbar-nav .nav-item .sub_menu {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header_area .banner_section .banner_content h1 {
+    font-size: 2rem !important;
+  }
+  .header_area .banner_section .banner_content h3 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  .banner_content_footer {
+    gap: 20px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner_content_footer {
+    flex-direction: column;
+  }
+}

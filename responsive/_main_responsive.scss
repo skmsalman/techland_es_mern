@@ -1,0 +1,193 @@
+@media screen and (max-width: 991px) {
+  .review_content {
+    text-align: center;
+  }
+  .blog_content {
+    text-align: center;
+  }
+
+  .blog_card {
+    max-width: 400px;
+    margin: auto;
+  }
+  .blog_row {
+    gap: 30px;
+  }
+  .client_row {
+    gap: 30px;
+  }
+  .tilt_gap {
+    gap: 50px;
+  }
+  .tilt_box {
+    display: flex !important;
+    justify-content: center;
+  }
+  .about_us {
+    text-align: center;
+    p {
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+  .icon {
+    svg {
+      width: 60px !important;
+      height: 60px !important;
+    }
+  }
+  .main_area .service_section .service_card .service_card_title {
+    font-size: 18px !important;
+  }
+  .main_area .service_section .service_card p {
+    font-size: 15px;
+  }
+  .main_area .pricing_section .pricing_card {
+    max-width: 430px !important;
+    margin: 0 auto 50px !important;
+  }
+  .main_area .pricing_section {
+    padding: 70px 0 !important;
+  }
+  .feature_row {
+    // flex-direction: column-reverse;
+    text-align: center;
+    gap: 70px;
+  }
+  .feature_bottom_row {
+    // flex-direction: none !important;
+  }
+  .feature_content ul {
+    max-width: 190px;
+    margin: auto;
+  }
+  .left_content_icon,
+  .right_content_icon {
+    justify-content: center !important;
+  }
+  .icon_description {
+    text-align: right;
+  }
+  .infoblock_section {
+    padding-top: 70px !important;
+  }
+  .info_row {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .info_content {
+    text-align: center;
+  }
+  .project_row,
+  .team_row {
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .project_card {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .main_area .review_section .riview_card {
+    max-width: 423px;
+    margin: auto;
+  }
+
+  .review_content {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brand_section {
+    margin-top: 80px !important;
+    .brand_row {
+      gap: 50px;
+    }
+  }
+  .icon,
+  .main_area .service_section .service_card .service_card_title,
+  .main_area .service_section .service_card p {
+    text-align: center;
+  }
+  .main_area .service_section .service_card {
+    margin-bottom: 20px;
+  }
+  .pricing_section {
+    padding-bottom: 30px !important;
+  }
+  .contact_col {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main_area {
+    margin-top: 84px !important;
+    .about_us h2 {
+      font-size: 30px !important;
+      line-height: 37px !important;
+      margin-top: 7px !important;
+      span {
+        font-size: 30px !important;
+      }
+    }
+    .service_section .service_content h2 {
+      font-size: 30px !important;
+      line-height: 37px !important;
+    }
+    .service_section .service_content h2 span {
+      font-size: 30px;
+    }
+  }
+  .main_area .pricing_section .pricing_content h2,
+  .main_area .feature_section .feature_content h2,
+  .main_area .infoblock_section .info_content h2,
+  .main_area .project_section .project_content h2,
+  .main_area .review_section .review_content h2,
+  .main_area .blog_section .blog_content h2,
+  .main_area .contact_section .contact_content h2 {
+    font-size: 30px !important;
+    line-height: 37px !important;
+  }
+  .main_area .pricing_section .pricing_content h2 span,
+  .main_area .feature_section .feature_content h2 span,
+  .main_area .infoblock_section .info_content h2 span,
+  .main_area .project_section .project_content h2 span,
+  .main_area .review_section .review_content h2 span,
+  .main_area .blog_section .blog_content h2 span,
+  .main_area .contact_section .contact_content h2 span {
+    font-size: 30px !important;
+  }
+  .main_area .project_section .project_card .project_card_content h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .main_area .project_section .project_card .project_card_content h3 span {
+    font-size: 26px;
+  }
+  .line_break {
+    display: none;
+  }
+  .main_area .contact_section .form_footer h1 {
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main_area {
+    margin-top: 50px !important;
+  }
+  .pricing_section {
+    margin-bottom: 40px !important;
+  }
+  .feature_row {
+    gap: 20px !important;
+  }
+  .team_member {
+    width: 100%;
+    .area {
+      width: 100%;
+    }
+  }
+}
